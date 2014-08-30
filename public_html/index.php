@@ -2,11 +2,14 @@
 
 require '../vendor/autoload.php';
 
+use Slim\Slim;
+
 // 初期化・設定
 
 $app = new \Slim\Slim();
 
 $app->config(array(
+    'view' => new \Slim\Views\Twig,
     'templates.path' => '../views',
     'debug' => false,
 ));
@@ -23,8 +26,8 @@ $app->error(function (\Exception $e) use ($app) {
 
 // ルーティング
 
-$app->get('/', function () {
-    echo "Hello world";
+$app->get('/', function () use($app) {
+    $app->render('index.html.twig');
 });
 
 // 実行
