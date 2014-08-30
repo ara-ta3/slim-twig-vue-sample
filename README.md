@@ -2,7 +2,7 @@
 
 ## Overview
 
-PHP製のマイクロフレームワークSlimのエラーハンドリングを試すだけのレポジトリ
+PHP製のマイクロフレームワークSlimとTwigとVue.jsを試すサンプル
 
 ## Slim Framework
 
