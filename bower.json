@@ -1,0 +1,19 @@
+{
+  "name": "slim-vue-sample",
+  "version": "0.0.0",
+  "homepage": "https://github.com/tarata/slim-twig-vue-sample",
+  "authors": [
+    "Arata <tarata43@yahoo.co.jp>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "vue": "~0.10.6"
+  }
+}
